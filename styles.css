@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #618DF7;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel {
+    background-color: #618DF7;
+    color: white;
+    padding: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left-panel h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.left-panel h2 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.left-panel p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.illustration {
+    width: 200px;
+    height: 200px;
+    background: url('illustration.png') no-repeat center center / cover;
+}
+
+.right-panel {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.google-btn, .facebook-btn {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-btn {
+    background-color: #DB4437;
+    color: white;
+}
+
+.facebook-btn {
+    background-color: #4267B2;
+    color: white;
+}
+
+.signup-form p {
+    margin: 20px 0;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.password-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.password-wrapper input {
+    width: calc(100% - 40px);
+}
+
+.create-account-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #618DF7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup-form a {
+    color: #618DF7;
+    text-decoration: none;
+}
